@@ -88,7 +88,19 @@ Passando esta `string` para o `console.log` deve mostrar algo como isto:
 Quando você tiver o programa que gere este padrão, defina a variável `size = 8` e altere programa para que ele funcione para qualquer `size`, a saída da grade de largura e altura.
 
 ```javascript
-// Your code here.
+var hash = "";
+var size = 15;
+var cnt = 0
+var cc = 0;
+
+while (cc < size) {
+    while (cnt < size) {
+        hash = hash += "\n#"
+        cnt = cnt + 1; 
+    }
+    console.log(hash);
+    cc = cc + 1; 
+}
 ```
 
 **Dica:**
