@@ -44,7 +44,7 @@ Quando o programa estiver funcionando, modifique-o para imprimir `FizzBuzz` para
 
 (Isto é na verdade uma pergunta de entrevista usada para eliminar uma porcentagem significativa de candidatos programadores. Então se você resolvê-la, você está autorizado de se sentir bem consigo mesmo).
 
-```
+```javascript
 var numbers = 0;
 var cnt = 0;
 
