@@ -11,8 +11,6 @@ function min(n1, n2) {
     else return n2;
 }
 
-console.log(min(23, 111));
-
 console.log(min(0, 10));
 // → 0
 console.log(min(0, -10));
